@@ -1,0 +1,22 @@
+$background-color: #eee;
+$text-color: #444;
+$base-margin: 40px;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.app {
+  width: 1000px;
+  margin: 40px auto 0;
+  text-align: center;
+  display: flex;
+}
+
+.left-navi {
+  list-style-type: none;
+  margin-right: $base-margin;
+  padding-right: $base-margin / 2;
+  border-right: 1px solid #ccc;
+}

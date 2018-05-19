@@ -1,0 +1,20 @@
+$search-form-font-size: 24px;
+
+.search-form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.place-input {
+  padding: 5px 3px 6px;
+  font-size: $search-form-font-size;
+}
+
+.submit-button {
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: $search-form-font-size;
+  background-color: #fff;
+}
+

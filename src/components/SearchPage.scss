@@ -1,0 +1,14 @@
+.searchpage {
+  &-title {
+    text-align: center;
+    margin-top: 0;
+  }
+  &-result {
+    display: flex;
+    &-right {
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
+}
+
